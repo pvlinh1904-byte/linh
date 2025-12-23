@@ -1,16 +1,21 @@
-import math
-rs = True
-for i in range(2, int(math.sqrt(n))+1):
-    if n % i == 0:
-        rs = False
-        break
+# Hàm kiểm tra số nguyên tố
+def la_nguyen_to(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Nhập số nguyên dương
 while True:
-    n = int(input("n = "))
+    n = int(input("Nhập một số nguyên dương: "))
     if n > 0:
-        print("hợp lệ")
-    else:
-        print("nhập lại")
-    if rs == True:
-        print("là sô nguyên tố")
-    else:
-        print("không là số nguyên tố")
+        break
+    print("Vui lòng nhập số nguyên dương!")
+
+# Kiểm tra số nguyên tố
+if la_nguyen_to(n):
+    print(f"{n} là số nguyên tố.")
+else:
+    print(f"{n} không phải là số nguyên tố.")

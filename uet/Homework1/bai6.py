@@ -5,4 +5,4 @@ if (a+b>c) and (b+c>a) and (a+c>b):
     s = math.sqrt(p*(p-a)*(p-b)*(p-c))
     print(f"diện tích tam giác = {s:.1f}")
 else:
-    print("là 1 tam giác")
+    print("không là 1 tam giác")
