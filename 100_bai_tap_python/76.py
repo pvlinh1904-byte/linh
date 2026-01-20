@@ -1,4 +1,4 @@
-def sln(L):
+def vitri_max(L):
     if len(L) == 0:
         return -1
     
@@ -11,4 +11,4 @@ def sln(L):
 L = input("L = ")
 L = L.split()
 L = list(map(int, L))
-print(sln(L))
+print(vitri_max(L))

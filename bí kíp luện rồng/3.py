@@ -1,3 +1,3 @@
-a = input("Nhập in chữ cái in hoa: ")
+a = input()
 a = a.lower()
 print(a)

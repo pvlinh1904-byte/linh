@@ -1,2 +1,3 @@
 A = int(input("A = "))
-print(2*A)
+if A <= 100:
+    print(2*A)

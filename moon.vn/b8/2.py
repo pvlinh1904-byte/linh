@@ -11,7 +11,7 @@ for i in input1:
         s1.add(i)
 
 s2 = set()
-input1 = input("s2 = ").split(",")
+input2 = input("s2 = ").split(",")
 
 for i in input2:
     i = i.strip()
