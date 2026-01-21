@@ -1,7 +1,0 @@
-chuoi = input("Nhập vào chuỗi")
-a = chuoi.find(",")
-b = chuoi.rfind(",")
-so1 = int(chuoi[:a])
-so2 = int(chuoi[a+1:b])
-so3 = int(chuoi[b+1:])
-print(so1 + so2 + so3)
