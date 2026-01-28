@@ -1,8 +1,6 @@
-def housesOfHogwarts(path: str):
-    with open(path, 'r') as f:
-        lines = f.readlines()
-    
-    # Dòng đầu là số lượng tên, bỏ qua
-    for name in lines[1:]:
-        print(name.strip())
-housesOfHogwarts("hogwarts.txt")
+def housesOfHogwarts(path):
+    with open(path, "r") as f:
+        ten = f.readlines()
+    for i in ten[1:]:
+        print(i.strip())
+housesOfHogwarts("linh.txt")
